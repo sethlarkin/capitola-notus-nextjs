@@ -60,11 +60,11 @@ export default function Footer() {
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  {/* <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                     Useful Links
-                  </span>
+                  </span> */}
                   <ul className="list-unstyled">
-                    <li>
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation?ref=nnjs-footer"
@@ -126,7 +126,7 @@ export default function Footer() {
                       >
                         Privacy Policy
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -144,14 +144,14 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} Notus NextJS by{" "}
-                <a
+                Copyright © {new Date().getFullYear()} CAPITOLA TECH{" "}
+                {/* <a
                   href="https://www.creative-tim.com?ref=nnjs-footer"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
                   Creative Tim
-                </a>
-                .
+                </a> */}
+                
               </div>
             </div>
           </div>

@@ -14,17 +14,23 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Capitola Tech - Expertise in Website Development, Home Network
-                Setup, and Personal AI Consulting.
+                Notus NextJS - A beautiful extension for Tailwind CSS.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Capitola Tech is your trusted partner in digital solutions. We
-                don't just build websites; we ensure seamless home network
-                setups and offer personalized AI consulting. Our dynamic
-                solutions are tailored for businesses and individuals alike,
-                ensuring you're always ahead in the digital era.
+                Notus NextJS is Free and Open Source. It does not change any of
+                the CSS from{" "}
+                <a
+                  href="https://tailwindcss.com/?ref=creativetim"
+                  className="text-blueGray-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tailwind CSS
+                </a>
+                . It features multiple HTML elements and it comes with dynamic
+                components for ReactJS, Vue and Angular.
               </p>
-              {/* <div className="mt-12">
+              <div className="mt-12">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
                   target="_blank"
@@ -39,13 +45,13 @@ export default function Index() {
                 >
                   Github Star
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src="/img/ct_logo.png"
+          src="/img/pattern_nextjs.png"
           alt="..."
         />
       </section>
@@ -92,13 +98,13 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Capitola Tech - Digital Solutions for the Modern World
+                    Great for your awesome project
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Whether it's crafting a unique website, setting up a secure
-                    home network, or diving deep into AI consulting, our team
-                    ensures top-notch quality and innovation. At Capitola Tech,
-                    we bring your digital dreams to life.
+                    Putting together a page has never been easier than matching
+                    together pre-made components. From landing pages
+                    presentation to login areas, you can easily customise and
+                    built your pages.
                   </p>
                 </blockquote>
               </div>
@@ -110,30 +116,28 @@ export default function Index() {
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-desktop"></i>
+                        <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Website Development
+                        CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        At Capitola Tech, we craft bespoke websites tailored to
-                        your needs. Merging functionality with aesthetics, our
-                        sites are both user-friendly and visually stunning.
+                        Notus NextJS comes with a huge number of Fully Coded CSS
+                        components.
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-wifi"></i>
+                        <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Home Network Setup
+                        JavaScript Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Experience seamless connectivity with our home network
-                        solutions. We ensure fast, secure, and reliable setups
-                        to keep you connected 24/7.
+                        We also feature many dynamic components for React,
+                        NextJS, Vue and Angular.
                       </p>
                     </div>
                   </div>
@@ -142,30 +146,26 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-brain"></i>
+                        <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        Personal AI Consulting
-                      </h6>
+                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
                       <p className="mb-4 text-blueGray-500">
-                        Harness the power of AI with our expert consulting. We
-                        guide you through AI integration, ensuring your business
-                        is at the forefront of technological advancements.
+                        This extension also comes with 3 sample pages. They are
+                        fully coded so you can start working instantly.
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-chalkboard-teacher"></i>
+                        <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Technical Training
+                        Documentation
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Stay ahead in the tech world with our comprehensive
-                        technical training sessions. Equip your team with the
-                        skills they need to excel in today's digital landscape.
+                        Built by developers for developers. You will love how
+                        easy is to to work with Notus NextJS.
                       </p>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ export default function Index() {
           </div>
         </div>
 
-        {/* <div className="container mx-auto overflow-hidden pb-20">
+        <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
@@ -501,10 +501,10 @@ export default function Index() {
               start playing with them.
             </p>
           </div>
-        </div> */}
+        </div>
       </section>
 
-      {/* <section className="block relative z-1 bg-blueGray-600">
+      <section className="block relative z-1 bg-blueGray-600">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -660,7 +660,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       <Footer />
     </>
   );
